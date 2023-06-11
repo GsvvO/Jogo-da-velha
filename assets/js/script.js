@@ -109,7 +109,7 @@ function checkGame(){
             resetGame();
         }, 1000);
     }else if(isFull()){
-        warning = `${playerWinner}`;
+        warning = "Empate";
         renderInfo()
         playing = false;
         setTimeout(() => {
